@@ -10,7 +10,7 @@
 
 // Colors
 $color-background		: #141414;
-$color-text				: #999999;
+$color-text				: #891608;
 $color-text-link		: #CCCCCC;
 $color-text-link-hover	: #FFFFFF;
 $color-icon				: #999999;
@@ -38,18 +38,18 @@ $image-background		: url('../../images/background.jpg');
 //-------------------------------------------------------------------------------
 
 html {
-	background-color: $color-background; 
+	background-color: $color-background;
 }
 body.page-template-page-fullsingle-me {
 	height: 100vh;
-	background-color: $color-background; 
+	background-color: $color-background;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 500;
 	font-size: 45px;
 	line-height: 60px;
 	letter-spacing: -0.5px;
 	color: $color-text;
-	background-image: $image-background; 
+	background-image: $image-background;
 	background-position: center center;
 	background-size:cover;
 
@@ -64,7 +64,7 @@ body.page-template-page-fullsingle-me {
 		@media (max-width: $bp-tablet ) {
 			font-size: 32px;
 			line-height: 40px;
-		}	
+		}
 
 	}
 
@@ -83,7 +83,7 @@ body.page-template-page-fullsingle-me {
 	@media (max-width: $bp-mobile ) {
 		padding: 5vh 5vw;
 		text-align: center;
-	}	
+	}
 
   	.me-content {
   		height: 80vh;
@@ -92,7 +92,7 @@ body.page-template-page-fullsingle-me {
 
 		@media (max-width: $bp-mobile ) {
 			height: 90vh; // as padding now 5vh 5vw
-		}	
+		}
 
 	}
 
@@ -102,7 +102,7 @@ body.page-template-page-fullsingle-me {
 // Logo
 //-------------------------------------------------------------------------------
 
-.logo { 
+.logo {
 		flex: 1 1 auto;
 		display: flex;
 		flex-direction: column;
@@ -124,7 +124,7 @@ body.page-template-page-fullsingle-me {
 // Bio
 //-------------------------------------------------------------------------------
 
-.bio { 
+.bio {
 	flex: 1 1 auto;
 	display: flex;
 	flex-direction: column;
@@ -154,7 +154,7 @@ body.page-template-page-fullsingle-me {
 // Network
 //-------------------------------------------------------------------------------
 
-.network { 
+.network {
 	flex: 1 1 auto;
 	display: flex;
 	flex-direction: column;
@@ -172,7 +172,7 @@ body.page-template-page-fullsingle-me {
 			a {
 				display: inline-block;
 				width: 30px;
-				height: 30px; 
+				height: 30px;
 				cursor: pointer;
 
 				//-------------------------------------------------------------------------------
@@ -182,7 +182,7 @@ body.page-template-page-fullsingle-me {
 				.svg-icon {
 					padding: 4px;
 					width: 22px;
-					height: 22px; 
+					height: 22px;
 					margin: 0;
 					display: block;
 				}
@@ -215,13 +215,13 @@ body.page-template-page-fullsingle-me {
 
 	}
 
-}	
+}
 
 //-------------------------------------------------------------------------------
 // Credit
 //-------------------------------------------------------------------------------
 
-//	To edit this credit you can remove the CCA 3.0 license for only $5 here: https://onepagelove.com/me 
+//	To edit this credit you can remove the CCA 3.0 license for only $5 here: https://onepagelove.com/me
 //	this really helps contribute towards us developing more templates and means the world to me!
 //	Cheers, Rob (@robhope)
 
@@ -230,12 +230,12 @@ body.page-template-page-fullsingle-me {
 	animation: fadein 8s;
 
 	p {
-		font-size: 12px; 
+		font-size: 12px;
 		line-height: 14px;
 		font-weight: 400;
 		opacity: 0.4;
 
-		a { 
+		a {
 			color: $color-text;
 		}
 
@@ -244,11 +244,11 @@ body.page-template-page-fullsingle-me {
 }
 
 //-------------------------------------------------------------------------------
-// Videos 
+// Videos
 //-------------------------------------------------------------------------------
 
 body.page-template-page-fullsingle-me.me-video {
-	background-image: none; 
+	background-image: none;
 
 	.me-video-container {
 		overflow:hidden;
@@ -263,7 +263,7 @@ body.page-template-page-fullsingle-me.me-video {
 		object-position : 50% 50%;
 		width           : 100%;
 		height          : 100%;
-	} 
+	}
 
 	// YouTube
 	.video-wrap{
@@ -275,25 +275,25 @@ body.page-template-page-fullsingle-me.me-video {
 	.video-container {
 		position:relative;
 		overflow:hidden;
-		height: 56.25vw; 
+		height: 56.25vw;
 		width: 100vw;
-		@media (max-aspect-ratio:16/9) { 
-			height: 100vh; 
+		@media (max-aspect-ratio:16/9) {
+			height: 100vh;
 			width: 177.7777777778vh; // this is for the ration 16:9
 		}
 	}
-	.video-container iframe, 
-	.video-container object, 
-	.video-container embed { 
-		position: absolute; 
-		top: 0; 
-		left: 0; 
-		width: 100%; 
-		height: 100%; 
+	.video-container iframe,
+	.video-container object,
+	.video-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 
 	// dark overlay, tweak the 0.6 if needed = 60% darkness
 	.fs-me {
-		background-color: rgba(0,0,0,0.6); 
+		background-color: rgba(0,0,0,0.6);
 	}
 }
